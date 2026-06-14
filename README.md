@@ -1,4 +1,5 @@
 # BibTool – Automatic BibTeX Generator from Reference Lists
+🌐 Languages: English | [中文](README_CN.md)
 
 ## Introduction
 
