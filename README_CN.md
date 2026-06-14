@@ -1,7 +1,7 @@
-\# BibTeX 生成器 (BibTool)
+# BibTeX 生成器 (BibTool)
 🌐 语言: [English](README.md) | 中文
 
-\## 简介
+## 简介
 
 本工具是一个基于 Python + Tkinter 的桌面应用程序，能够自动将论文参考文献列表（纯文本格式）转换为 BibTeX 条目。
 
@@ -25,7 +25,7 @@
 
 
 
-\## 系统要求
+## 系统要求
 
 操作系统：Windows / macOS / Linux（支持 Python 和 Tkinter）
 
@@ -35,9 +35,9 @@ Python 版本：3.6 或更高
 
 
 
-\## 安装步骤
+## 安装步骤
 
-\### 1. 安装 Python
+### 1. 安装 Python
 
 
 
@@ -49,7 +49,7 @@ Python 版本：3.6 或更高
 
 
 
-\### 2. 下载项目代码
+### 2. 下载项目代码
 
 
 
@@ -61,7 +61,7 @@ C:\\BibTool\\bibtool.py
 
 
 
-\### 3. 安装依赖库
+### 3. 安装依赖库
 
 
 
@@ -87,9 +87,9 @@ pip install requests rapidfuzz -i https://pypi.mirrors.ustc.edu.cn/simple/
 
 
 
-\## 使用方法
+## 使用方法
 
-\### 1. 启动程序
+### 1. 启动程序
 
 
 
@@ -105,7 +105,7 @@ python bibtool.py
 
 
 
-\### 2. 准备参考文献文本
+### 2. 准备参考文献文本
 
 
 
@@ -141,7 +141,7 @@ python bibtool.py
 
 
 
-\### 3. 运行查询
+### 3. 运行查询
 
 
 
@@ -153,7 +153,7 @@ python bibtool.py
 
 
 
-\### 4. 查看结果
+### 4. 查看结果
 
 右侧区域：生成 BibTeX，可直接复制
 
@@ -163,7 +163,7 @@ python bibtool.py
 
 
 
-\### 5. 保存 BibTeX
+### 5. 保存 BibTeX
 
 
 
@@ -175,15 +175,15 @@ python bibtool.py
 
 
 
-\## 示例
+## 示例
 
-\### 输入
+### 输入
 
 1\. Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., ... \& Bengio, Y. (2014). Generative adversarial nets. Advances in neural information processing systems, 27.
 
 
 
-\### 输出
+### 输出
 
 @article{Goodfellow2014Generative,
 
@@ -207,7 +207,7 @@ python bibtool.py
 
 
 
-\## 注意事项
+## 注意事项
 
 单条文献处理时间约 2–3 秒
 
@@ -221,7 +221,7 @@ python bibtool.py
 
 
 
-\## 常见问题
+## 常见问题
 
 
 
@@ -255,7 +255,7 @@ A: 通常由于标题过短或信息不足，可补充作者或年份
 
 
 
-\## 依赖库说明
+## 依赖库说明
 
 库名	作用
 
@@ -269,7 +269,7 @@ re / time / threading / queue	标准库
 
 
 
-\## 高级选项
+## 高级选项
 
 
 
@@ -291,7 +291,7 @@ FINAL\_SIMILARITY\_THRESHOLD = 65
 
 
 
-\## 许可证
+## 许可证
 
 
 
