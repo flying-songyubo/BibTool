@@ -1,4 +1,5 @@
 \# BibTeX 生成器 (BibTool)
+🌐 语言: [English](README.md) | 中文
 
 \## 简介
 
