@@ -17,7 +17,9 @@ Typical use case: quickly converting references from Word or PDF papers into Bib
 ## System Requirements
 
 Operating system: Windows, macOS, Linux with Python and Tkinter support
+
 Python version: 3.6 or higher
+
 Network access: required for CrossRef and OpenAlex API calls
 
 ## Installation
@@ -45,7 +47,9 @@ Tkinter is included in the Python standard library and does not require installa
 Optional mirrors:
 
 pip install requests rapidfuzz -i https://pypi.tuna.tsinghua.edu.cn/simple
+
 pip install requests rapidfuzz -i https://mirrors.aliyun.com/pypi/simple/
+
 pip install requests rapidfuzz -i https://pypi.mirrors.ustc.edu.cn/simple/
 
 ## Usage
@@ -59,8 +63,10 @@ python bibtool.py
 Each entry starts with a number and one line per reference.
 
 Example:
+
 1. Zhang, L., Liu, Y. (2021). Deep learning for image recognition.
-2. Smith, J. (2020). Cloud computing survey.
+   
+3. Smith, J. (2020). Cloud computing survey.
 
 ### 3. Run
 
@@ -69,7 +75,9 @@ Click run query to fetch metadata.
 ### 4. Output
 
 Right panel shows BibTeX results
+
 Left panel shows logs
+
 Bottom shows progress
 
 ### 5. Save
@@ -82,16 +90,23 @@ Input:
 Goodfellow et al. (2014). Generative adversarial nets.
 
 Output:
+
 @article{Goodfellow2014Generative,
+
 author = {Goodfellow, Ian and Bengio, Yoshua},
+
 title = {Generative Adversarial Nets},
+
 year = {2014}
+
 }
 
 ## Notes
 
 Processing time: 2-3 seconds per entry
+
 Retry enabled under rate limit
+
 Caching enabled
 
 ## License
