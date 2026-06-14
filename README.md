@@ -1,4 +1,4 @@
-# BibTool
+# BibTool – Automatic BibTeX Generator from Reference Lists
 
 ## Introduction
 
